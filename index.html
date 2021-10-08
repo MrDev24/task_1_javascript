@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="eng">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Task 1 in Javascript</title>
+        <meta name="description" content="">
+        <link rel="icon" href="js.png" type="x-icon/image">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="styles.CSS">
+    </head>
+    <body>
+       <div class="main">
+        <fieldset class="box">
+               <button class="btn1" type="button" onclick="user()">What is your name?</button>
+               <br><br>
+               <label class="field" id="user"></label>
+               <br><br>
+               <button class="btn1" type="button" onclick="Operation()">Calculate</button>
+               <br><br>
+               
+               
+               <span>Given: </span>
+               <div class="given">
+               <br>
+               <small>A = </small><label  id="a"></label>    
+               <small>B = </small><label  id="b"></label> 
+               <small>C = </small><label  id="c"></label>
+               </div>
+
+               <br><br>
+               <label>Sum: </label> <label class="field" id="ansA"></label>
+               <br><br>
+               <label>Product: </label><label class="field" id="ansB"></label>
+               <br><br>   
+               <button class="btn1" type="reset" onclick="reset()">Reset</button>    
+        </fieldset>
+        <br><br><br>
+          <fieldset class="box">
+            <legend>Football team</legend>
+              <div class="standing">
+                <span>Win: 3</span><small> points</small>
+                   <span>Draw: 1</span><small> point</small>
+                   <span> Loss: 0</span><small> point</small>
+                   </div>
+                   <div>
+                   <br><br><br>
+                   <span>Win: </span><label id="win"></label><small> point(s)</small>
+                   <br><br><br>
+                   <button class="btn1" type="button" onclick="calculateWin()">Calculate</button>
+                   <br><br><br>
+                   <span>Draw: </span><label id="draw"> </label><small> point(s)</small>
+                   <br><br><br>
+                   <button class="btn1" type="button" onclick="calculateDraw()">Calculate</button>
+                   <br><br><br>
+                   <span>Loss: </span><label id="loss"></label> <small> point(s)</small>
+                   <br><br><br>
+                   <button class="btn1" type="button" onclick="calculateLoss()">Calculate</button>
+                   <br><br>
+                   <button class="btn1" type="reset" onclick="resetPoints()">Reset</button> 
+              </div>
+              <br><br>
+              <div class="calculate">
+               
+              </fieldset>
+           </div>
+ 
+        </div>
+
+
+        
+        <script src="main.js"></script>
+    </body>
+</html>
